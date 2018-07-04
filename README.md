@@ -10,6 +10,24 @@
 
 ### 如何使用：
 
+Gradle:
+```
+compile 'com.iron.dialog:linkage:1.0.0'
+```
+
+JavaCode:
+```
+        //在创建的时候就需要设置最多有多少级联动
+        LinkageDialog dialog = new LinkageDialog.Builder(context, 3).setLinkageData(getData())
+                .setOnLinkageSelectListener(new LinkageDialog.IOnLinkageSelectListener() {
+                    @Override
+                    public void onLinkageSelect(LinkageItem... items) {
+                        toastLinkageItem(items);
+                    }
+                }).build();
+```
+
+其他样式效果可以通过demo查看
 
 ### API：
 
