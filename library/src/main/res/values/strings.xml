@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">library</string>
+
+    <string name="please_select">"请选择"</string>
+</resources>
