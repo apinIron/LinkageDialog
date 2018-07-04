@@ -24,4 +24,4 @@ setTabTitleColor(int colorTabSelectTitleColor,int colorTabWaitSelectTitleColor) 
 
 setOnLinkageSelectListener(IOnLinkageSelectListener listener)   //监听选择事件
 
-setOnLinkageAdapterListener(IOnLinkageAdapterListener listener)   //如果需要自定义RecyclerView的item布局，需设置这个方法
+setOnLinkageAdapterListener(IOnLinkageAdapterListener listener)   //如需要自定义RecyclerView的item布局，需设置这个方法
