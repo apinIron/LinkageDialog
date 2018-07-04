@@ -8,7 +8,10 @@
 
 ![](https://github.com/apinIron/LinkageDialog/blob/master/frame.gif)
 
-## API：
+### 如何使用：
+
+
+### API：
 
 setTitle(String title) //设置对话框的标题
 
